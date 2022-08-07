@@ -5,7 +5,7 @@ const closeBtn = document.querySelector('.close-btn button')
 
 
 explore.addEventListener('click', function() {
-    location.href = 'destination-moon.html'
+    location.href = 'destination.html'
 })
 
 menuBtn.addEventListener('click', function() {
