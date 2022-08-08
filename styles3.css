@@ -102,3 +102,108 @@ body {
     font-weight: 600;
     margin: 0vw 4vw 0vw 0vw;
 }
+
+.crew-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.crew-header h3 {
+    color: var(--clr-white);
+    font-family: var(--ff-body);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 0.5vw;
+    margin: 0vw 0vw 10vw 0vw;
+}
+
+.crew-header h3 span {
+    color: hsl(0, 0%, 30%);
+    margin: 0vw 4vw 0vw 0vw;
+}
+
+.crew-picture {
+    margin: 0vw 8vw;
+    padding: 0vw;
+    border-bottom: 1px solid hsl(231, 67%, 80%);
+}
+
+.crew-picture img {
+    width: 60vw;
+    height: auto;
+    transition: var(--transition);
+}
+
+.crew-btns {
+    margin: 8vw 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.crew {
+    width: 4vw;
+    height: 4vw;
+    margin: 0vw 2vw;
+    background-color: hsl(0, 0%, 30%);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.crew:hover {
+    background-color: hsl(0, 0%, 65%);
+}
+
+.active {
+    background-color: var(--clr-white);
+}
+
+.crew-about {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.crew-rank h2 {
+    text-transform: uppercase;
+    color: hsl(0, 0%, 30%);
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: var(--ff-head);
+    margin: 0vw;
+    transition: var(--transition)
+}
+
+.crew-name h1 {
+    text-transform: uppercase;
+    color: var(--clr-white);
+    font-size: 2em;
+    font-weight: 400;
+    font-family: var(--ff-head);
+    margin: 2vw 0vw;
+    transition: var(--transition);
+}
+
+.crew-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.crew-description span {
+    text-align: center;
+    color: var(--clr-light-blue);
+    margin: 2vw 10vw 8vw 10vw;
+    font-family: var(--ff-body);
+    line-height: 1.6;
+    font-size: 1.3em;
+    transition: var(--transition);
+}
