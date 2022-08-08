@@ -175,7 +175,7 @@ body {
     text-transform: uppercase;
     color: hsl(0, 0%, 30%);
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 400;
     font-family: var(--ff-head);
     margin: 0vw;
     transition: var(--transition)

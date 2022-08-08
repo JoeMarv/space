@@ -102,3 +102,109 @@ body {
     font-weight: 600;
     margin: 0vw 4vw 0vw 0vw;
 }
+
+.technology-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.technology-header h3 {
+    color: var(--clr-white);
+    font-family: var(--ff-body);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 0.5vw;
+    margin: 0vw 0vw 8vw 0vw;
+}
+
+.technology-header h3 span {
+    color: hsl(0, 0%, 30%);
+    margin: 0vw 4vw 0vw 0vw;
+}
+
+.technology-picture img {
+    width: 100vw;
+    height: 40vw;
+    transition: var(--transition);
+}
+
+.technology-btns {
+    margin: 8vw 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology {
+    width: 12vw;
+    height: 12vw;
+    margin: 0vw 2vw;
+    color: var(--clr-white);
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 30%);
+    border-radius: 50%;
+    font-family: var(--ff-head);
+    font-weight: 400;
+    font-size: 1.25em;
+    cursor: pointer;
+    transition: var(--transition);
+    align-items: center;
+}
+
+.technology:hover {
+    border: 1px solid var(--clr-white);
+}
+
+.active {
+    border: 1px solid var(--clr-white);
+    background-color: var(--clr-white);
+    color: var(--clr-dark-blue);
+}
+
+.technology-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.technology-about h2 {
+    text-transform: uppercase;
+    color: var(--clr-light-blue);
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 0.5vw;
+    font-family: var(--ff-body);
+    margin: 0vw;
+    transition: var(--transition)
+}
+
+.technology-name h1 {
+    text-transform: uppercase;
+    color: var(--clr-white);
+    font-size: 2em;
+    font-weight: 400;
+    font-family: var(--ff-head);
+    margin: 4vw 0vw;
+    transition: var(--transition);
+}
+
+.technology-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.technology-description span {
+    text-align: center;
+    color: var(--clr-light-blue);
+    margin: 2vw 8vw 8vw 8vw;
+    font-family: var(--ff-body);
+    line-height: 1.6;
+    font-size: 1.25em;
+    transition: var(--transition);
+}
