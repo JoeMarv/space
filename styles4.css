@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+:root {
+    --ff-head: 'Bellefair', serif;
+    --ff-body: 'Barlow Condensed', sans-serif;
+    --clr-dark-blue: hsl(230, 35%, 7%);
+    --clr-light-blue: hsl(231, 77%, 90%);
+    --clr-white: hsl(0, 0%, 100%);
+    --transition: all 0.3s ease
+}
+
+* {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 14px;
+    height: 100vh;
+    background-image: url(assets/technology/background-technology-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0vw;
+    transition: var(--transition);
+}
+
+.buttons-section {
+    margin: 6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 10vw;
+    height: auto;
+}
+
+.menu-btn button {
+    padding: 0vw;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: var(--transition);
+    transform: translate(100%);
+    overflow: hidden;
+    backdrop-filter: blur(10vw);
+    display: flex;
+    flex-direction: column;
+}
+
+/* menu toggle start*/
+.open {
+    transform: translate(0%);
+}
+/* menu toggle end*/
+
+.close-btn {
+    display: flex;
+    margin: 6vw;
+    justify-content: right;
+}
+
+.close-btn button {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+    margin: 12vw 12vw;
+    font-family: var(--ff-body);
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--clr-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 1.2em;
+    letter-spacing: 0.5vw;
+    margin: 4vw 0vw;
+    font-weight: 400;
+}
+
+.menu a span {
+    font-weight: 600;
+    margin: 0vw 4vw 0vw 0vw;
+}

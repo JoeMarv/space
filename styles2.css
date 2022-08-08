@@ -25,6 +25,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0vw;
+    transition: var(--transition);
 }
 
 .buttons-section {
@@ -128,6 +129,7 @@ body {
 .destination-picture img {
     width: 40vw;
     height: auto;
+    transition: var(--transition);
 }
 
 .destination-btns {
@@ -175,12 +177,14 @@ body {
     font-weight: 400;
     font-family: var(--ff-head);
     margin: 4vw 0vw 2vw 0vw;
+    transition: var(--transition);
 }
 
 .destination-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: var(--transition);
 }
 
 .destination-description span {
@@ -190,8 +194,9 @@ body {
     font-family: var(--ff-body);
     line-height: 1.6;
     font-size: 1.2em;
-    padding-bottom: 8vw;
+    padding-bottom: 6vw;
     border-bottom: 1px solid hsl(231, 67%, 80%);
+    transition: var(--transition);
 }
 
 .destination-info {
@@ -199,6 +204,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 4vw 0vw 0vw 0vw;
+    transition: var(--transition);
 }
 
 .destination-info h3 {
@@ -217,4 +223,5 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 2em;
+    transition: var(--transition);
 }
