@@ -362,3 +362,128 @@ body {
         transition: var(--transition);
     }
 }
+
+
+/* Desktop View */
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(assets/destination/background-destination-desktop.jpg);
+    }
+    
+    .logo img {
+        width: 4vw;
+    }
+
+    .menu {
+        margin: 4vw 0vw;
+    }
+    
+    .menu-links {
+        padding: 0vw 6vw;
+    }
+    
+    .menu a {
+        font-size: 1.3em;
+        letter-spacing: 0.25vw;
+        padding: 3vw 1vw;
+    }
+
+    .menu a span {
+        margin: 0vw 1vw 0vw 0vw;
+        display: flex;
+    }
+
+    
+    .destination-main {
+        margin: 0vw 12vw;
+    }
+    
+    .destination-header h3 {
+        justify-content: left;
+        font-size: 2em;
+        margin: 4vw 0vw;
+    }
+
+    .body-and-pic {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn-and-main {
+        display: flex;
+        flex-direction: column;
+        margin: 0vw 0vw 0vw 10vw;
+        width: 40vw;
+    }
+
+    .destination-picture {
+        margin: 4vw 0vw 0vw 0vw;
+    }
+
+    .destination-picture img {
+        width: 35vw;
+    }
+    
+    .destination-btns {
+        margin: 0vw;
+        justify-content: left;
+    }
+    
+    .destination {
+        width: 5vw;
+        font-size: 1.5em;
+        border: 0vw 0vw 0.25vw 0vw;
+        padding: 1vw 0vw;
+        margin: 0vw 2vw 0vw 0vw;
+    }
+    
+    .destination:hover {
+        border-bottom: 0.25vw solid hsl(0, 0%, 50%);
+    }
+    
+    .active {
+        border-bottom: 0.25vw solid var(--clr-white);
+    }
+    
+    .destination-name h1 {
+        font-size: 7em;
+        margin: 2vw 0vw;
+        text-align: left;
+    }
+
+    .destination-description span {
+        margin: 0vw 0vw 4vw 0vw;
+        font-size: 1.6em;
+        padding-bottom: 0vw;
+        text-align: left;
+        border: none;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    
+    .destination-info {
+        margin: 0vw;
+        text-align: left;
+        margin: 0vw 4vw 0vw 0vw;
+    }
+    
+    .destination-info h3 {
+        margin: 1vw 0vw;
+        letter-spacing: 0.25vw;
+        font-size: 1.1em;
+    }
+    
+    .destination-info h1 {
+        color: var(--clr-white);
+        margin: 0vw;
+        font-family: var(--ff-head);
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 2.1em;
+        transition: var(--transition);
+    }
+}

@@ -260,3 +260,77 @@ body {
         box-shadow: 0vw 0vw 0vw 10vw rgba(255, 255, 255, 0.1);
     }
 }
+
+
+/* Desktop View */
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(assets/home/background-home-desktop.jpg);
+    }
+    
+    .logo img {
+        width: 4vw;
+    }
+
+    .menu {
+        margin: 4vw 0vw;
+    }
+    
+    .menu-links {
+        padding: 0vw 6vw;
+    }
+    
+    .menu a {
+        font-size: 1.3em;
+        letter-spacing: 0.25vw;
+        padding: 3vw 1vw;
+    }
+
+    .menu a span {
+        margin: 0vw 1vw 0vw 0vw;
+        display: flex;
+    }
+
+    .main-and-button {
+        display: flex;
+        flex-direction: row;
+        margin: 8vw;
+    }
+    
+    .main {
+        margin: 8vw 0vw;
+        width: 40vw;
+    }
+
+    .main h3 {
+        text-align: left;
+        font-size: 2em;
+        margin: 2vw 0vw;
+    }
+    
+    .main h1 {
+        font-size: 10em;
+        text-align: left;
+    }
+    
+    .main span {
+        margin: 0vw;
+        font-size: 2em;
+        text-align: left;
+    }
+    
+    .explore-btn {
+        margin: 15vw 0vw 0vw 20vw;
+    }
+    
+    .explore-btn button {
+        height: 20vw;
+        width: 20vw;
+        font-size: 2.5em;
+       
+    }
+    
+    .explore-btn button:hover {
+        box-shadow: 0vw 0vw 0vw 6vw rgba(255, 255, 255, 0.1);
+    }
+}

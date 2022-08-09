@@ -337,3 +337,93 @@ body {
         font-size: 1.7em;
     }
 }
+
+
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(assets/crew/background-crew-desktop.jpg);
+    }
+    
+    .logo img {
+        width: 4vw;
+    }
+
+    .menu {
+        margin: 4vw 0vw;
+    }
+    
+    .menu-links {
+        padding: 0vw 6vw;
+    }
+    
+    .menu a {
+        font-size: 1.3em;
+        letter-spacing: 0.25vw;
+        padding: 3vw 1vw;
+    }
+
+    .menu a span {
+        margin: 0vw 1vw 0vw 0vw;
+        display: flex;
+    }
+
+    .crew-header h3 {
+        justify-content: left;
+        margin: 4vw 0vw 8vw 12vw;
+        font-size: 2em;
+    }
+
+    .crew-major {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 40vw;
+        margin: 0vw 0vw 0vw 12vw;
+    }
+
+    .pic-and-button {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .crew-picture {
+        margin: 0vw;
+        border-bottom: none;
+        position: absolute;
+        right: 18vw;
+        top: 20vw;
+        width: 30vw;
+    }
+    
+    .crew-picture img {
+        width: 40vw;
+    }
+    
+    .crew-btns {
+        margin: 0vw;
+        justify-content: left;
+    }
+    
+    .crew {
+        width: 1vw;
+        height: 1vw;
+        margin: 0vw 2vw 0vw 0vw;
+    }
+
+    .crew-rank h2 {
+        font-size: 2.4em;
+        text-align: left;
+    }
+    
+    .crew-name h1 {
+        font-size: 4em;
+        margin: 2vw 0vw;
+        text-align: left;
+    }
+    
+    .crew-description span {
+        margin: 0vw 0vw 10vw 0vw;
+        font-size: 2em;
+        text-align: left;
+    }
+}

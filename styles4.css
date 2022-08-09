@@ -313,3 +313,94 @@ body {
         font-size: 1.7em;
     }
 }
+
+
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(assets/technology/background-technology-desktop.jpg);
+    }
+    
+    .logo img {
+        width: 4vw;
+    }
+
+    .menu {
+        margin: 4vw 0vw;
+    }
+    
+    .menu-links {
+        padding: 0vw 6vw;
+    }
+    
+    .menu a {
+        font-size: 1.3em;
+        letter-spacing: 0.25vw;
+        padding: 3vw 1vw;
+    }
+
+    .menu a span {
+        margin: 0vw 1vw 0vw 0vw;
+        display: flex;
+    }
+    
+    .technology-header h3 {
+        justify-content: left;
+        margin: 4vw 0vw 8vw 12vw;
+        font-size: 2em;
+    }
+
+    .technology-major {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0vw 0vw 0vw 12vw;
+    }
+
+    .technology-picture {
+        margin: 6vw 0vw 0vw 12vw;
+    }
+
+    .technology-picture img {
+        width: 30vw;
+    }
+
+    .btn-and-about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .technology-btns {
+        margin: 0vw;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .technology {
+        width: 6vw;
+        height: 6vw;
+        margin: 0vw 0vw 4vw 0vw;
+        font-size: 3em;
+    }
+
+    .technology-about {
+        margin: 0vw 0vw 0vw 8vw;
+    }
+
+    .technology-about h2 {
+        font-size: 1.5em;
+        text-align: left;
+    }
+    
+    .technology-name h1 {
+        font-size: 3.5em;
+        margin: 2vw 0vw;
+        text-align: left;
+    }
+    
+    .technology-description span {
+        margin: 0vw;
+        text-align: left;
+        line-height: 1.6;
+        font-size: 1.7em;
+    }
+}
