@@ -225,3 +225,140 @@ body {
     font-size: 2em;
     transition: var(--transition);
 }
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(assets/destination/background-destination-tablet.jpg);
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        align-items: center;
+    }
+    
+    .buttons-section {
+        margin: 3vw 4vw;
+    }
+    
+    .logo img {
+        width: 6vw;
+    }
+    
+    .menu-btn button {
+        display: none;
+    }
+    
+    .menu {
+        position: relative;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        transform: translate(0%);
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+    
+    .close-btn {
+        display: none;
+    }
+    
+    .menu-links {
+        display: flex;
+        flex-direction: row;
+        margin: 0vw;
+        font-family: var(--ff-body);
+        padding: 0vw 2vw;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: var(--clr-white);
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        font-size: 1.2em;
+        letter-spacing: 0.5vw;
+        margin: 0vw 1vw;
+        font-weight: 400;
+        padding: 5vw 1vw;
+    }
+
+    .menu a:hover {
+       border-bottom: 1vw solid hsl(0, 0%, 50%);
+    }
+
+    .menu a:focus {
+        border-bottom: 1vw solid var(--clr-white);
+    }
+    
+    .menu a span {
+        display: none;
+    }
+    
+    .destination-main {
+        margin: 2vw 0vw;
+    }
+    
+    .destination-header h3 {
+        justify-content: left;
+        margin: 4vw 0vw 8vw 4vw;
+    }
+    
+    .destination-btns {
+        margin: 4vw 0vw 0vw 0vw;
+    }
+    
+    .destination {
+        width: 10vw;
+        font-size: 1.3em;
+        border: 0vw 0vw 0.5vw 0vw;
+    }
+    
+    .destination:hover {
+        border-bottom: 0.5vw solid hsl(0, 0%, 50%);
+    }
+    
+    .active {
+        border-bottom: 0.5vw solid var(--clr-white);
+    }
+    
+    .destination-name h1 {
+        font-size: 7em;
+        margin: 4vw 0vw 2vw 0vw;
+    }
+
+    .destination-description span {
+        margin: 0vw 12vw 4vw 12vw;
+        font-size: 1.6em;
+        padding-bottom: 4vw;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .destination-info {
+        margin: 0vw 8vw;
+    }
+    
+    .destination-info h3 {
+        margin: 1vw 0vw;
+        letter-spacing: 0.5vw;
+    }
+    
+    .destination-info h1 {
+        color: var(--clr-white);
+        margin: 0vw;
+        font-family: var(--ff-head);
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 2em;
+        transition: var(--transition);
+    }
+}

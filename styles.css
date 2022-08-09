@@ -158,3 +158,105 @@ body {
 .explore-btn button:hover {
     box-shadow: 0vw 0vw 0vw 16vw rgba(255, 255, 255, 0.1);
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(assets/home/background-home-tablet.jpg);
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        align-items: center;
+    }
+    
+    .buttons-section {
+        margin: 3vw 4vw;
+    }
+    
+    .logo img {
+        width: 6vw;
+    }
+    
+    .menu-btn button {
+        display: none;
+    }
+    
+    .menu {
+        position: relative;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        transform: translate(0%);
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+    
+    .close-btn {
+        display: none;
+    }
+    
+    .menu-links {
+        display: flex;
+        flex-direction: row;
+        margin: 0vw;
+        font-family: var(--ff-body);
+        padding: 0vw 2vw;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: var(--clr-white);
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        font-size: 1.2em;
+        letter-spacing: 0.5vw;
+        margin: 0vw 1vw;
+        font-weight: 400;
+        padding: 5vw 1vw;
+    }
+
+    .menu a:hover {
+       border-bottom: 1vw solid hsl(0, 0%, 50%);
+    }
+
+    .menu a:focus {
+        border-bottom: 1vw solid var(--clr-white);
+    }
+    
+    .menu a span {
+        display: none;
+    }
+    
+    .main {
+        margin: 6vw 0vw;
+    }
+    
+    .main h1 {
+        font-size: 10em;
+        margin: 0vw;
+    }
+    
+    .main span {
+        margin: 4vw 20vw;
+        font-size: 2em;
+    }
+    
+    .explore-btn {
+        margin: 10vw 0vw 0vw 0vw;
+    }
+    
+    .explore-btn button {
+        height: 40vw;
+        width: 40vw;
+        font-size: 3em;
+       
+    }
+    
+    .explore-btn button:hover {
+        box-shadow: 0vw 0vw 0vw 10vw rgba(255, 255, 255, 0.1);
+    }
+}
