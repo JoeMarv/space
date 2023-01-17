@@ -132,6 +132,7 @@ body {
     height: auto;
     transition: var(--transition);
     animation: orbit 40s infinite linear;
+    z-index: 50;
 }
 
 .destination-btns {
